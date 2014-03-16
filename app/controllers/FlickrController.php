@@ -56,7 +56,7 @@ class FlickrController extends BaseController
   {
     // flickr api key
     $api_key = Config::get('flickr.api_key', NULL);
-    if (is_null($api_key)) {
+    if (empty($api_key)) {
       die('You should set the Flickr API Key in the config file "app/config/flickr.php".');
     }
 

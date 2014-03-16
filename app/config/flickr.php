@@ -12,6 +12,6 @@ return array(
   |
   */
 
-  'api_key' => 'API_KEY_HERE'
+  'api_key' => ''
 
 );
